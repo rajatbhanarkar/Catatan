@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "215087580638",
+    "firebase_url": "https://catatan-ad4de.firebaseio.com",
+    "project_id": "catatan-ad4de",
+    "storage_bucket": "catatan-ad4de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215087580638:android:b51c2c7101155e5527c94f",
+        "android_client_info": {
+          "package_name": "com.example.catatan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215087580638-v37o59hcg1sv2ao37s3ar7v26tj78nml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.catatan",
+            "certificate_hash": "9367bdef3a69916a104bb4ba6eb630c061d18483"
+          }
+        },
+        {
+          "client_id": "215087580638-s8jrqj4pmbpmoi9gj6ue1gadvblk8tf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKj8LiPLmQa_GZ0iUMEkyyKDmDzG_UtXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215087580638-s8jrqj4pmbpmoi9gj6ue1gadvblk8tf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:background="@drawable/borders"
+    android:backgroundTint="#424242" android:layout_margin="7dp">
+
+    <TextView
+        android:id="@+id/tvexpheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:text="Unit 1"/>
+
+</LinearLayout>

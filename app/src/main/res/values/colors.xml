@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e88e5</color>
+    <color name="colorPrimaryDark">#1976d2</color>
+    <color name="colorAccent">#212121</color>
+
+    <color name="fieldColor">#ffffff</color>
+
+    <color name="liteThemeColor">#e0f2f1</color>
+    <color name="darkThemeColor">#212121</color>
+    <color name="buttonColor">#1e88e5</color>
+    <color name="liteTextColor">#ffffff</color>
+    <color name="darkTextColor">#000000</color>
+</resources>

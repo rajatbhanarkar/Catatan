@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffc107"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#424242"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/otp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Verify Your Phone!"/>
+
+        <EditText
+            android:id="@+id/etphno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:hint="Enter Your Phone Number"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#424242"
+            android:textColorHint="#424242"
+            android:inputType="phone"
+            android:background="@drawable/rounded_borders"/>
+
+        <Button
+            android:id="@+id/btnsendotp"
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:textColor="#424242"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:text="Send OTP"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#ffc107"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="15dp"
+        android:hint="Enter OTP"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#424242"
+        android:textColorHint="#424242"
+        android:inputType="phone"
+        android:background="@drawable/rounded_borders"/>
+
+    <Button
+        android:id="@+id/btnverify"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:text="Verify"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#424242"/>
+
+</LinearLayout>
